@@ -10,3 +10,6 @@
 - run-Terraform destroy - to destroy the terraform environment changes it created.
 - run-Terraform refresh - to refresh the terraform environment
 - run-Terraform output - to see the changes of the tf file is going to make changes in the process.
+- run-Terraform show - to see the current state of remote objects.
+- run-Terraform state-list - to see the list of all remote objects. getting managed.
+- run-Terraform apply -destroy - to apply and destroy.
