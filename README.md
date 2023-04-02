@@ -3,8 +3,10 @@
 - Terraform-Basic-commands
 - run-Terraform init - to initialize the terraform environment
 - run-Terraform plan - to see the changes of the tf file is going to make changes in the process.
+- run-Terraform validate - to validate the tf file configuration changes.
 - run-Terraform fmt - to format the file according to the hashicorp format.
 - run-Terraform apply - to apply the changes of the tf file to the terraform environment.
+- run-Terraform apply -auto-approve :  the changes of the tf file directly instead of writing yes.
 - run-Terraform destroy - to destroy the terraform environment changes it created.
 - run-Terraform refresh - to refresh the terraform environment
 - run-Terraform output - to see the changes of the tf file is going to make changes in the process.
