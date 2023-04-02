@@ -15,11 +15,11 @@ resource "aws_instance" "myserver" {
     Name = "MyServer-${local.name}"
   }
 }
-
+/*
 # we are adding the module vpc to from the hashicorp modules of vpc.
 module "vpc" {
   source = "terraform-aws-modules/vpc/aws"
-  providers ={
+  providers = {
     aws = aws.us
   }
 
@@ -38,6 +38,6 @@ module "vpc" {
     Environment = "dev"
   }
 }
-
+*/
 
 
